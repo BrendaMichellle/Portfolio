@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Brenda Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+        <script src="https://kit.fontawesome.com/1a1c40ca5e.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/bMlogo2.svg" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <!--<i class="fas fa-bars"></i>-->
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="#blog" class="nav__link">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Introduction-->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">Hi, I am <strong>Brenda Michelle</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Front-end Developer</p>
+            <a href="#contact" class="btn btn-intro">Contact</a>
+            <img src="img/Bprofile.jpg" alt="" class="intro__img">
+        </section>
+
+        <!--My Services-->
+        <section class="my-services" id="skills">
+            <h2 class="section__title section__title--services">Skills</h2>
+            <div class="services">
+                <div class="service">
+                    <i class="devicon-html5-plain-wordmark colored icon"></i>      
+                </div> <!--/ service-->
+                <div class="service">
+                    <i class="devicon-css3-plain-wordmark colored icon"></i>
+                </div><!--/ service-->
+                <div class="service">
+                    <i class="devicon-bootstrap-plain-wordmark colored icon"></i>
+                </div><!--/ service-->
+                <div class="service">
+                    <i class="devicon-javascript-plain colored icon"></i>     
+                </div> <!--/ service-->
+                <div class="service">
+                    <i class="devicon-git-plain colored icon"></i>     
+                </div> <!--/ service-->
+                <div class="service">
+                    <i class="devicon-github-plain colored icon" id="github-icon"></i>      
+                </div> <!--/ service-->
+                <div class="service">
+                    <i class="devicon-visualstudio-plain colored icon"></i>      
+                </div> <!--/ service-->
+                <div class="service">
+                    <i class="devicon-wordpress-plain colored icon"></i>     
+                </div> <!--/ service-->
+            </div><!--/ services-->
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!--About me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">About Me</h2>
+            <p class="section__subtitle section__subtitle--about">Front-End Dev</p>
+            
+            <div class="about-me__body">
+                <p>Hi, I am Brenda Michelle. I am an aspiring full stack developer. Current front-end developer from California living in Belgium. I spend my time on personal projects and learning more about HTML, CSS and JavaScript. I am interested in remote work as well as freelance work. If you have an idea for a website or want to upgrade your current website <a href="#contact" class="btn-about">contact</a> me and we can discuss your options. </p>
+                <p>I am a stay at home mom breaking into the tech industry. Juggling entrepreneurship, learning and motherhood 1 list at a time. In my free time I enjoy spending time with my family in nature, reading fiction, and making CSS art. Since I am actually very bad at drawing or painting CSS is my creative outlet. Check out some of my <a href="https://codepen.io/brendamichellle" target="_blank" class="btn-about">art.</a></p>
+            </div>
+
+            <img src="img/Bimg.jpg" alt="Brenda sitting and smiling" class="about-me__img">
+        </section>
+        
+        <!--My Work-->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my current work</p>
+
+            <div class="portfolio">
+                <!--portfolio item 01-->
+                <a href="https://codepen.io/brendamichellle/pen/mdVZvqr" class="portfolio--item" target="_blank">
+                    <img src="img/portfolio-01.png" alt="" class="portfolio--img">
+                </a>
+                <!--portfolio item 02-->
+                <a href="https://codepen.io/brendamichellle/pen/RwaaybO" class="portfolio--item" target="_blank">
+                    <img src="img/portfolio-02.png" alt="" class="portfolio--img">
+                </a>
+                <!--portfolio item 03-->
+                <a href="https://codepen.io/brendamichellle/pen/jOqqazP" class="portfolio--item" target="_blank">
+                    <img src="img/portfolio-03.png" alt="" class="portfolio--img">
+                </a>
+                <!--portfolio item 04-->
+                <a href="https://codepen.io/brendamichellle/pen/ExKywYG" class="portfolio--item" target="_blank">
+                    <img src="img/portfolio-04.png" alt="" class="portfolio--img">
+                </a>
+                <!--portfolio item 05-->
+                <a href="https://codepen.io/brendamichellle/pen/OJMqKax" class="portfolio--item" target="_blank">
+                    <img src="img/portfolio-05.png" alt="" class="portfolio--img">
+                </a>
+                <!--portfolio item 06-->
+                <a href="https://codepen.io/brendamichellle/pen/abderQr" class="portfolio--item" target="_blank">
+                    <img src="img/portfolio-06.png" alt="" class="portfolio--img">
+                </a>
+                <!--portfolio item 07-->
+                <a href="https://codepen.io/brendamichellle/pen/JjGZazV" class="portfolio--item" target="_blank">
+                    <img src="img/portfolio-07.png" alt="" class="portfolio--img">
+                </a>
+                <!--portfolio item 08-->
+                <a href="https://codepen.io/brendamichellle/pen/abdRrbq" class="portfolio--item" target="_blank">
+                    <img src="img/portfolio-08.png" alt="" class="portfolio--img">
+                </a>
+                <!--portfolio item 09-->
+                <a href="https://codepen.io/brendamichellle/pen/OJNMZMN" class="portfolio--item" target="_blank">
+                    <img src="img/portfolio-09.png" alt="" class="portfolio--img">
+                </a>
+            </div>
+        </section>
+
+        <!-- My Blog -->
+        <section class="blog" id="blog">
+            <h2 class="section__title section__title--blog">My Blog</h2>
+            <p class="section__subtitle section__subtitle--blog">My Latest Posts</p>
+            <p class="section__subtitle comingSoon">Coming Soon</p>
+        </section>
+
+        <!--Contact -->
+        <section class="contact" id="contact">
+            <div class="header-contact">
+                <h2 class="section__title section__title--contact">Contact</h2>
+                <p class="section__subtitle section__subtitle--contact">Lets Work Together</p>
+                <i class="far fa-envelope"></i><a href="mailto:brendagmichelle@gmail.com" class="contact__link"> brendagmichelle@gmail.com</a>
+            </div>
+            
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a href="https://codepen.io/brendamichellle" class="social-list__link" target="_blank">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                    <p class="social-text">codepen</p>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://www.instagram.com/brendamichellle/" class="social-list__link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <p class="social-text">instagram</p>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://twitter.com/MichellleBrenda" class="social-list__link" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <p class="social-text">twitter</p>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://dev.to/brendamichellle" class="social-list__link" target="_blank">
+                        <i class="fab fa-dev"></i>
+                    </a>
+                    <p class="social-text">dev.to</p>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://www.linkedin.com/in/brenda-gutierrez-68968719b/" class="social-list__link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <p class="social-text">linkedin</p>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://github.com/BrendaMichellle" class="social-list__link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <p class="social-text">github</p>
+                </li>
+            </ul>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <p>2020 Brenda Michelle</p>
+        </footer>
+        <script src="js/index.js"></script>
+    </body>
+</html>
