@@ -275,6 +275,8 @@ header {
 .hamburger {
   display: block;
   position: relative;
+  right: 1em; 
+  top: 1em;
 }
 
 .hamburger,
@@ -567,6 +569,10 @@ header {
   font-size: 2em;
 }
 
+.social-text {
+  display: none; 
+}
+
 @media (min-width: 600px) {
   .contact {
     display: grid;
@@ -585,6 +591,9 @@ header {
     display: flex;
     justify-items: center;
   }
+  
+  .social-text {
+    display: block;
 }
 
 /* Footer */
