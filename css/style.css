@@ -404,8 +404,9 @@ header {
 }
 
 #wordpress-icon {
-  color: #fff;
+  color: white;
 }
+
 @media (min-width: 800px) {
   .services {
     display: flex; 
