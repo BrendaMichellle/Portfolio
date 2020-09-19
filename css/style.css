@@ -511,7 +511,10 @@ header {
 /* My Blog */
 .blog {
   text-align: center;
+}
 
+#blog-btn {
+  margin-top: 2em;
 }
 
 /* My Contact */
