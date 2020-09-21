@@ -517,6 +517,22 @@ header {
   margin-top: 2em;
 }
 
+.section__subtitle--blog {
+  font-weight: var(--fw-bold);
+  background-color: #fff;
+}
+
+#medium-link {
+  font-size: 3em;
+  margin-top: .5em ;
+  color: #111111;
+}
+
+#medium-link:hover {
+  position: relative;
+  top: .12em;
+}
+
 /* My Contact */
 
 .contact {
