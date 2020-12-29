@@ -174,7 +174,7 @@ header {
 }
 
 .logo {
-  max-width: 200px;
+  max-width: 100px;
   padding: 0;
 }
 
@@ -321,6 +321,7 @@ header {
 .btn-intro {
   display: block;
   margin-bottom: .8em;
+  width: 220px;
 }
 
 @media (min-width: 600px) {
