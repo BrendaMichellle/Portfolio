@@ -656,3 +656,42 @@ footer p {
   margin-left: auto;
   margin-right: auto;
 }
+
+/*LINKS PAGE STYLES*/
+
+.template-header {
+  font-size: 3rem;
+}
+
+.templates {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 70%;
+  margin: 1em auto 1em auto ;
+}
+
+.template-title {
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-h3);
+  margin-bottom: 0;
+}
+
+.image--notion {
+  border: 5px solid var(--clr-dark);
+  border-radius: 10px;
+  margin: 1.5em 0 ;
+  box-shadow: 2px 2px 4px 2px rgb(168, 168, 168);
+}
+
+.image--notion:hover {
+  position: relative;
+  top: -4px;
+}
+
+.ko-fi {
+  position: relative;
+  left: 5%;
+  margin-bottom: 10px;
+}
