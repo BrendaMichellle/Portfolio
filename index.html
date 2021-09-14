@@ -47,10 +47,9 @@
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
                     <li class="nav__item"><a href="https://blog.brendamichellle.com/" target="_blank" class="nav__link">Blog</a></li>
-                    <li class="nav__item"><a href="links.html" class="nav__link">Links</a></li>
+                    <li class="nav__item"><a href="links.html" class="nav__link"><img src="./img/notionicon.png" alt="notion icon" class="notion--icon"></a></li>
                 </ul>
             </nav>
         </header>
@@ -61,7 +60,7 @@
             </h1>
             <p class="section__subtitle section__subtitle--intro">Front-end Developer</p>
             <a href="#contact" class="btn btn-intro">Contact</a>
-            <img src="img/Bprofile.jpg" alt="" class="intro__img">
+            <img src="img/heroProfile.png" alt="" class="intro__img">
         </section>
 
         <!--My Services-->
@@ -79,6 +78,9 @@
                 </div><!--/ service-->
                 <div class="service">
                     <i class="devicon-javascript-plain colored icon"></i>     
+                </div> <!--/ service-->
+                <div class="service">
+                    <i class="devicon-react-original colored icon"></i>     
                 </div> <!--/ service-->
                 <div class="service">
                     <i class="devicon-git-plain colored icon"></i>     
@@ -102,62 +104,89 @@
             <p class="section__subtitle section__subtitle--about">Front-End Dev</p>
             
             <div class="about-me__body">
-                <p>Hi, I am Brenda Michelle. I am an aspiring full stack developer. Current front-end developer from California living in Belgium. I spend my time on personal projects and learning more about HTML, CSS and JavaScript. I am interested in remote work as well as freelance work. If you have an idea for a website or want to upgrade your current website <a href="#contact" class="btn-about">contact</a> me and we can discuss your options. </p>
-                <p>I am a stay at home mom breaking into the tech industry. Juggling entrepreneurship, learning and motherhood 1 list at a time. In my free time I enjoy spending time with my family in nature, reading fiction, and making CSS art. Since I am actually very bad at drawing or painting CSS is my creative outlet. Check out some of my <a href="https://codepen.io/brendamichellle" target="_blank" class="btn-about">art.</a></p>
+                <p>Hi, I am Brenda Michelle. Current front-end developer from California living in Belgium. I spend my time on personal projects and learning more about Front-end and how to improve my skills. I am passionate about building accessible, user-friendly websites and web applications. My skills include HTML, CSS(SASS), Javascript (ES6), React, GIT, Github, Netlify. However, I am constantly learning and am open to new technologies. If you think I would be a great fit for your team feel free to <a href="#contact" class="btn-about">contact</a> me so we can chat. </p>
+
+                <p>As a self-taught developer I am a fast, effecient and resourceful learner. With my abilities and skills I am able to solve problems quickly. In my free time I enjoy spending time with my family in nature, reading fiction, and making CSS art. Since I am actually very bad at drawing or painting CSS is my creative outlet. Check out some of my <a href="https://codepen.io/brendamichellle" target="_blank" class="btn-about">art.</a></p>
             </div>
 
-            <img src="img/Bimg.jpg" alt="Brenda sitting and smiling" class="about-me__img">
+            <img src="img/Bprofile.jpg" alt="Brenda sitting and smiling" class="about-me__img">
         </section>
         
         <!--My Work-->
         <section class="my-work" id="work">
-            <h2 class="section__title section__title--work">My Work</h2>
+            <h2 class="section__title section__title--work">My Projects</h2>
             <p class="section__subtitle section__subtitle--work">A selection of my current work</p>
 
             <div class="portfolio">
                 <!--portfolio item 01-->
-                <a href="https://codepen.io/brendamichellle/pen/mdVZvqr" class="portfolio--item" target="_blank">
-                    <img src="img/portfolio-01.png" alt="" class="portfolio--img">
-                </a>
+
+                <div class="portfolio--item" target="_blank">
+                    <img src="./img/morocco4u.png" alt="" class="portfolio--img">
+                    <div class="portfolio--item--buttons">
+                        <a href="https://github.com/BrendaMichellle/Morocco4u" class="item__button">Github</a>
+                        <a href="https://morocco4u.netlify.app/#/" class="item__button">Live Demo</a>
+                    </div>
+                </div>
                 <!--portfolio item 02-->
-                <a href="https://codepen.io/brendamichellle/pen/RwaaybO" class="portfolio--item" target="_blank">
-                    <img src="img/portfolio-02.png" alt="" class="portfolio--img">
-                </a>
+                <div class="portfolio--item" target="_blank">
+                    <img src="./img/social-dashboard.png" alt="" class="portfolio--img">
+                    <div class="portfolio--item--buttons">
+                        <a href="https://github.com/BrendaMichellle/social-media-dashboard" class="item__button">Github</a>
+                        <a href="https://brendamichellle.github.io/social-media-dashboard/" class="item__button">Live Demo</a>
+                    </div>
+                </div>
                 <!--portfolio item 03-->
-                <a href="https://codepen.io/brendamichellle/pen/jOqqazP" class="portfolio--item" target="_blank">
-                    <img src="img/portfolio-03.png" alt="" class="portfolio--img">
-                </a>
+                <div class="portfolio--item" target="_blank">
+                    <img src="./img/stats-preview.png" alt="" class="portfolio--img">
+                    <div class="portfolio--item--buttons">
+                        <a href="https://github.com/BrendaMichellle/statsPreviewComponent" class="item__button">Github</a>
+                        <a href="https://brendamichellle.github.io/statsPreviewComponent/" class="item__button">Live Demo</a>
+                    </div>
+                </div>
                 <!--portfolio item 04-->
-                <a href="https://codepen.io/brendamichellle/pen/ExKywYG" class="portfolio--item" target="_blank">
-                    <img src="img/portfolio-04.png" alt="" class="portfolio--img">
-                </a>
+                <div class="portfolio--item" target="_blank">
+                    <img src="./img/cafesite.png" alt="" class="portfolio--img">
+                    <div class="portfolio--item--buttons">
+                        <a href="https://github.com/BrendaMichellle/Lumia-Cafe-Site" class="item__button">Github</a>
+                        <a href="https://brendamichellle.github.io/Lumia-Cafe-Site/index.html" class="item__button">Live Demo</a>
+                    </div>
+                </div>
                 <!--portfolio item 05-->
-                <a href="https://codepen.io/brendamichellle/pen/OJMqKax" class="portfolio--item" target="_blank">
-                    <img src="img/portfolio-05.png" alt="" class="portfolio--img">
-                </a>
+                <div class="portfolio--item" target="_blank">
+                    <img src="./img/card-component.png" alt="" class="portfolio--img">
+                    <div class="portfolio--item--buttons">
+                        <a href="https://github.com/BrendaMichellle/3CardPreviewComponent" class="item__button">Github</a>
+                        <a href="https://brendamichellle.github.io/3CardPreviewComponent/" class="item__button">Live Demo</a>
+                    </div>
+                </div>
                 <!--portfolio item 06-->
-                <a href="https://codepen.io/brendamichellle/pen/abderQr" class="portfolio--item" target="_blank">
-                    <img src="img/portfolio-06.png" alt="" class="portfolio--img">
-                </a>
-                <!--portfolio item 07-->
-                <a href="https://codepen.io/brendamichellle/pen/JjGZazV" class="portfolio--item" target="_blank">
-                    <img src="img/portfolio-07.png" alt="" class="portfolio--img">
-                </a>
-                <!--portfolio item 08-->
-                <a href="https://codepen.io/brendamichellle/pen/abdRrbq" class="portfolio--item" target="_blank">
-                    <img src="img/portfolio-08.png" alt="" class="portfolio--img">
-                </a>
-                <!--portfolio item 09-->
-                <a href="https://codepen.io/brendamichellle/pen/OJNMZMN" class="portfolio--item" target="_blank">
-                    <img src="img/portfolio-09.png" alt="" class="portfolio--img">
-                </a>
+                <div class="portfolio--item" target="_blank">
+                    <img src="./img/order-summary.png" alt="" class="portfolio--img">
+                        <div class="portfolio--item--buttons">
+                            <a href="https://github.com/BrendaMichellle/order-summary-component-main" class="item__button ">Github</a>
+                            <a href="https://brendamichellle.github.io/order-summary-component-main/" class="item__button">Live Demo</a>
+                        </div>
+                </div>
             </div>
         </section>
 
         <!-- My Blog -->
         <section class="blog" id="blog">
             <h2 class="section__title section__title--blog">My Content</h2>
-            <p>Coming Soon</p>
+            <div class="content__section">
+                <div class="content__item">
+                    <iframe width="400" height="215" src="https://www.youtube.com/embed/wm9QUcxlPaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="content__item">
+                    <iframe width="400" height="215" src="https://www.youtube.com/embed/DfEic9lvkkg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="content__item">
+                    <iframe width="400" height="215" src="https://www.youtube.com/embed/b9cdlpDGkNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="content__item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YyxeaeXLHww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
 
         </section>
 
